@@ -1,107 +1,100 @@
-🫀 Heart Disease Dataset - Exploratory Data Analysis (EDA)
-This project provides an in-depth Exploratory Data Analysis (EDA) on the Heart Disease dataset. The goal is to understand the distribution of features, handle missing data, detect outliers, and identify relationships between key health indicators and the presence of heart disease.
+# 🫀 Heart Disease Dataset - Exploratory Data Analysis (EDA)
 
-📊 Dataset Overview
-The dataset contains clinical records of patients, with attributes such as:
+This project provides an in-depth **Exploratory Data Analysis (EDA)** on the Heart Disease dataset. The goal is to understand the distribution of features, handle missing data, detect outliers, and identify relationships between key health indicators and the presence of heart disease.
 
-Age
+---
 
-Sex
+## 📊 Dataset Overview
 
-Resting Blood Pressure
+The dataset contains **clinical records** of patients, with attributes such as:
 
-Cholesterol
+- **Age**
+- **Sex**
+- **Resting Blood Pressure**
+- **Cholesterol**
+- **Chest Pain Type**
+- **Maximum Heart Rate Achieved**
+- **Exercise-Induced Angina**
+- **ST Depression (Oldpeak)**
+- **Slope of ST Segment (ST_Slope)**
+- **Fasting Blood Sugar**
+- **Resting ECG Results**
+- **Target Variable**: `HeartDisease` (0 = No, 1 = Yes)
 
-Chest Pain Type
+Dataset Source: *Available on Kaggle / UCI Repository*
 
-Maximum Heart Rate Achieved
+---
 
-Exercise-Induced Angina
+## 📌 Key Objectives
 
-ST Depression (Oldpeak)
+- Explore feature distributions using histograms and count plots.
+- Detect and handle **missing values** using **Iterative Imputer**.
+- Perform **univariate**, **bivariate**, and **multivariate** analysis.
+- Generate insights using **box plots**, **heatmaps**, and **pairplots**.
+- Create new features via **binning** (e.g., Age Groups, BMI Categories).
 
-Slope of ST Segment (ST_Slope)
+---
 
-Fasting Blood Sugar
+## 🧪 Steps Performed
 
-Resting ECG Results
+1. **Data Loading & Inspection**  
+2. **Missing Value Handling** (Iterative Imputer, Mode Imputation)  
+3. **Data Visualization**  
+   - Histograms & Count Plots  
+   - Heatmap of Feature Correlations  
+   - Pairplot of Key Features  
+4. **Feature Engineering**  
+   - Age Grouping  
+   - BMI Classification  
+5. **Multivariate Analysis**
 
-Target Variable: HeartDisease (0 = No, 1 = Yes)
+---
 
-Dataset Source: [Available on Kaggle / UCI Repository]
+## 📈 Visual Insights
 
-📌 Key Objectives
-Explore feature distributions using histograms and count plots.
+- Chest pain type and ST segment slope are strong indicators of heart disease.
+- Age group and cholesterol also influence the presence of heart disease.
+- Pairplots and heatmaps reveal underlying relationships.
 
-Detect and handle missing values using Iterative Imputer.
+---
 
-Perform univariate, bivariate, and multivariate analysis.
+## 🛠️ Tools & Libraries Used
 
-Generate insights using box plots, heatmaps, and pairplots.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-Create new features via binning (e.g., Age Groups, BMI Categories).
+---
 
-🧪 Steps Performed
-Data Loading & Inspection
-Loaded the dataset, inspected data types, shape, and missing values.
+## 📁 Project Structure
 
-Missing Value Handling
-Used IterativeImputer with RandomForestRegressor to fill missing numerical values, and mode for categorical values.
-
-Data Visualization
-
-Histograms for numerical feature distributions
-
-Count plots for categorical variables
-
-Correlation heatmap
-
-Pairplots of key features
-
-Multivariate analysis (e.g., Chest Pain Type vs ST Slope vs Heart Disease)
-
-Feature Engineering
-
-Binning Age into categories: Young, Adult, Middle-aged, Senior
-
-BMI classification: Underweight, Normal, Overweight, Obese (if applicable)
-
-📈 Visual Insights
-Chest pain type and ST segment slope are strong indicators of heart disease.
-
-Certain age groups and cholesterol levels show higher heart disease prevalence.
-
-Correlation heatmap helps identify relationships between numeric features.
-
-🛠️ Tools & Libraries Used
-Python 🐍
-
-Pandas & NumPy
-
-Seaborn & Matplotlib
-
-Scikit-learn (for imputation)
-
-📁 Project Structure
-bash
-Copy
-Edit
 📦 HeartDisease-EDA
- ┣ 📊 heart_disease_eda.ipynb      # Jupyter notebook with full analysis
- ┣ 📄 README.md                    # Project summary and explanation
- ┗ 📂 dataset                     # (Optional) Place your dataset here
-💡 Conclusion
-This EDA helps in uncovering critical patterns that may influence the likelihood of heart disease. These insights can support predictive modeling and healthcare decision-making.
+┣ 📊 heart_disease_eda.ipynb
+┣ 📄 README.md
+┗ 📂 dataset/
 
-📌 Future Work
-Apply classification models (e.g., Logistic Regression, Random Forest)
+---
 
-Evaluate model performance using ROC-AUC, Precision-Recall
+## 💡 Conclusion
 
-Feature selection and dimensionality reduction
+This EDA helps identify major risk factors and patterns in the heart disease dataset, setting a strong foundation for building predictive models.
 
-📬 Contact
-Satvik Vaishnav
-📧 vaishnavsatvik2@gmail.com
-🔗 LinkedIn | GitHub
+---
 
+## 📌 Future Work
+
+- Train machine learning models (e.g., Logistic Regression, Random Forest)
+- Evaluate model performance (Accuracy, ROC, Precision-Recall)
+- Use feature selection and scaling techniques
+
+---
+
+## 📬 Contact
+
+**Satvik Vaishnav**  
+📧 vaishnavsatvik2@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/satvik-vaishnav-462822266)  
+🔗 [GitHub](https://github.com/SatvikVaishnav)
