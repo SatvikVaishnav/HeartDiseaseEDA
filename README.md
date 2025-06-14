@@ -69,7 +69,15 @@ Dataset Source: *Available on Kaggle / UCI Repository*
 
 ---
 
-<pre> ## 📁 Project Structure ``` 📦 HeartDisease-EDA ┣ 📊 heart_disease_eda.ipynb ┣ 📄 README.md ┗ 📂 dataset/ ``` </pre>
+<pre> ## 📁 Project Structure 
+
+``` 
+📦 HeartDisease-EDA 
+   ┣ 📊 heart_disease_eda.ipynb 
+   ┣ 📄 README.md 
+   ┗ 📂 dataset/ 
+   ```
+</pre>
 ---
 
 ## 💡 Conclusion
