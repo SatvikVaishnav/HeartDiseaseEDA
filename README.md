@@ -68,16 +68,14 @@ Dataset Source: *Available on Kaggle / UCI Repository*
 - Scikit-learn
 
 ---
-
-<pre> ## 📁 Project Structure 
+ ## 📁 Project Structure 
 
 ``` 
 📦 HeartDisease-EDA 
    ┣ 📊 heart_disease_eda.ipynb 
    ┣ 📄 README.md 
    ┗ 📂 dataset/ 
-   ```
-</pre>
+```
 ---
 
 ## 💡 Conclusion
