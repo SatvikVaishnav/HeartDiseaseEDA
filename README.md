@@ -74,7 +74,7 @@ Dataset Source: *Available on Kaggle / UCI Repository*
 📦 HeartDisease-EDA 
    ┣ 📊 heart_disease_eda.ipynb 
    ┣ 📄 README.md 
-   ┗ 📂 dataset/ 
+   ┗ 📂 heart.csv
 ```
 ---
 
